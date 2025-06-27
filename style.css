@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Exo+2:wght@492&family=Oswald:wght@700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Exo+2:wght@701&family=Oswald:wght@700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Signika:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Exo+2:wght@860&family=Oswald:wght@700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Signika:wght@606&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E0DFD5;
+    transition: all 0.5s ease;
+}
+
+h1 {
+    background-color: #F06543;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    font-size: 3rem;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 860;
+    font-style: normal;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    height: 60vh;
+    width: 70vw;
+    background-color: #241623;
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+.container #select-city {
+    width: 92px;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    font-family: "Signika", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 613;
+    font-style: normal;
+    font-variation-settings:
+        "GRAD" 0;
+}
+
+.container #select-city:hover {
+    cursor: pointer;
+}
+
+#para {
+    background-color: #C7EF00;
+    display: flex;
+    justify-content: first baseline;
+    margin-top: 2rem;
+    height: 48%;
+    line-height: 3rem;
+    padding: 1rem;
+    font-size: 2.5rem;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 492;
+    font-style: normal;
+    color: black;
+    border-radius: 10px;
+}
+
+@media(max-width:450px) {
+    #para {
+        font-size: 1.35rem;
+        line-height: 2rem;
+    }
+}
+
+.container #report-btn {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    font-family: "Signika", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 613;
+    font-style: normal;
+    font-variation-settings:
+        "GRAD" 0;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.container #report-btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#mode {
+    margin: 3rem 3rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-family: "Anton", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    border: 2px solid #C7EF00;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+#mode:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.clock {
+    text-align: center;
+    line-height: 4.5rem;
+    height: 5rem;
+    width: 10rem;
+    border: 2px solid red;
+    font-size: 2rem;
+    background-color: #F09D51;
+    border-radius: 1rem;
+    margin-left: 43vw;
+    margin-bottom: 2rem;
+    font-family: "Anton", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+@media(max-width:700px) {
+    .clock {
+        margin-left: 28vw;
+    }
+}
